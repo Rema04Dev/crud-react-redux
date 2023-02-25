@@ -1,5 +1,7 @@
-import AddForm from "./components/AddForm";
 import {Container, Row, Col} from 'react-bootstrap';
+import AddForm from "./components/AddForm";
+import TodoList from './components/TodoList';
+
 const App = () => {
   return (
     <Container>
@@ -7,6 +9,7 @@ const App = () => {
         <Col className="col-8">
           <h1>React-Redux TODO</h1>
           <AddForm />
+          <TodoList />
         </Col>
       </Row>
     </Container>
