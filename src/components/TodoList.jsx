@@ -4,7 +4,8 @@ const TodoItem = ({item}) => {
   const cssMapping = {
     'high': 'text-danger',
     'middle': 'text-primary',
-    'low': 'text-success'
+    'low': 'text-success',
+    'demonic': 'text-text'
   };
   const itemCss = cssMapping[priority]
 
